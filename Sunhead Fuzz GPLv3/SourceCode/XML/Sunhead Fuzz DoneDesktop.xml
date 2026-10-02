@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptImage" id="bg" x="0.0" y="0.0" fileName="{PROJECT_FOLDER}Pedal Nothing 3.jpg"
+             width="500" height="500.0" locked="1"/>
+  <Component type="ScriptSlider" id="mix" x="170.0" y="100.0" text="Nigredo (Mix)"
+             filmstripImage="{PROJECT_FOLDER}maschine-default.png" numStrips="31"
+             width="50" height="50" showTextBox="0" processorId="HardcodedMasterFX1"
+             parameterId="DryWet" scaleFactor="0.5"/>
+  <Component type="ScriptSlider" id="knbFocus" x="290.0" y="100.0" text="LP Focus"
+             max="200.0" mode="Frequency" processorId="HardcodedMasterFX1"
+             parameterId="LPFocus" filmstripImage="{PROJECT_FOLDER}maschine-default.png"
+             numStrips="31" width="50" height="50" showTextBox="0" scaleFactor="0.5"/>
+  <Component type="ScriptSlider" id="knbPostTone" x="170.0" y="220.0" text="Post Tone"
+             max="3500.0" mode="Frequency" min="20.0" processorId="HardcodedMasterFX1"
+             parameterId="PostTone" filmstripImage="{PROJECT_FOLDER}maschine-default.png"
+             numStrips="31" width="50" height="50" showTextBox="0" scaleFactor="0.5"/>
+  <Component type="ScriptSlider" id="knbDrive" x="290.0" y="220.0" text="Drive"
+             mode="Decibel" min="-100.0" max="0.0" stepSize="0.1000000014901161"
+             suffix=" dB" middlePosition="-18.0" processorId="HardcodedMasterFX1"
+             parameterId="Drive" filmstripImage="{PROJECT_FOLDER}maschine-default.png"
+             numStrips="31" width="50" height="50" showTextBox="0" scaleFactor="0.5"/>
+  <Component type="ScriptSlider" id="knbOutput" x="400.0" y="400.0" text="Output"
+             min="-24.0" max="24.0" processorId="HardcodedMasterFX1" parameterId="Input"
+             filmstripImage="{PROJECT_FOLDER}KNOB_BI_100x100.png" numStrips="127"
+             width="50" height="50" showTextBox="0" scaleFactor="0.5"/>
+  <Component type="ScriptSlider" id="knbInput" x="50.0" y="400.0" text="Input"
+             min="-24.0" max="24.0" processorId="HardcodedMasterFX1" parameterId="Output"
+             filmstripImage="{PROJECT_FOLDER}KNOB_BI_100x100.png" numStrips="127"
+             width="50" height="50" showTextBox="0" scaleFactor="0.5"/>
+</ContentProperties>
